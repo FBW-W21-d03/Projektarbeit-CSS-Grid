@@ -1,0 +1,42 @@
+
+.hauptschrift{
+  text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px 20px;
+    font-size: 1.6rem;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif
+
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr ;
+    grid-gap:1rem;
+    
+    
+    
+}
+
+#short-paragraf{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
+label{
+    display: block;
+}
+textarea{
+    height: 20px;
+}
+button{
+    border: 5px solid black;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 1.5rem;
+}
