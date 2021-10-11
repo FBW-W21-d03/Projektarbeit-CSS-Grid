@@ -1,0 +1,29 @@
+body{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+@media (max-width:600px){main{
+    grid-template-columns: auto;
+    row-gap: 1rem;
+}}
+
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
