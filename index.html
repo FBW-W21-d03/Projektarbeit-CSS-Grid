@@ -4,20 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
+
     <title>CSS-Grid</title>
 </head>
 <body>
 <header>
-
+  <div class="Über"><h1>Überschrift</h1></div>
 </header> 
 
-<main>
-
+<main div class="container">
+  
+    <div class="ein"><h2>Einleitung</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad recusandae eligendi reiciendis enim sequi officia quasi corrupti veritatis neque. Quibusdam sequi possimus earum quis eius ipsa excepturi dolorem nihil enim.</p></div>
+    <div class="haupt"><h2>Haupt</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos exercitationem vitae porro ad tempore architecto, voluptatum sed sint quae, esse deserunt omnis aut mollitia dolor fuga, cumque quisquam quia asperiores.</p></div>
+    <div class="schluß"><h2>Schluss</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequuntur dolorum mollitia rem unde eum, a asperiores, quod commodi laboriosam dicta neque alias esse aut optio at deserunt vero. Atque.</p></div>
 </main>
 
-<footer>
-
+<footer div class="footer">
+<!--Formular Beispiel-->
+        <!--typen für input-Felder: text, password, number; typen für buttons: submit, reset, button-->
+        <form action="">
+            <!--Beschreibt den input-->
+            <label>Vorname:</label><br>
+            <!--Texteingabefeld-->
+            <input type="text" name="Vorname"><br>
+            <label>Nachname:</label><br>
+            <input type="text" name="Nachname"><br>
+            <!--Auswahlmöglichkeit möglich mit gleichem Name; checked gibt an was beim laden ausgewählt ist-->
+            <input type="radio" name="Geschlecht" value="männlich" checked>
+            <label>männlich</label><br>
+            <input type="radio" name="Geschlecht" value="weiblich">
+            <label>weiblich</label><br>
+            <!--Absende Button-->
+            <input type="submit" value="Senden">
+        </form>
 </footer>
 </body>
 </html>
