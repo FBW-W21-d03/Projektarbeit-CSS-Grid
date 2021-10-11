@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+}
+.fullwidth{
+    grid-column: 1/4;
+    text-align: center;
+}
+#kommentar{
+    border: 5px solid grey;
+    border-radius: 10px;
+    margin-top: 5%;
+}
