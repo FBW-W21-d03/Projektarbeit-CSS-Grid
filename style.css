@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: gainsboro;
+display: grid;
+text-align: justify;
+
+}
+main{
+    display: grid;
+  
+   
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+}
+.title{
+font-size: 35px;
+
+grid-column-start: 2;
+grid-column-end: 3;
+}
+.Contaier{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 50px;
+}
+
+
+.art1{
+display: grid;
+}
+
+.art1{
+
+}
+.art1{
+
+}
+
+
+.Schluss{
+   
+   
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
