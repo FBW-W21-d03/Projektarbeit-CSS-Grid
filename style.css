@@ -1,0 +1,58 @@
+header{
+    background-color: darkgrey;
+    text-align: center;
+    background-color: orange;
+}
+.grid-container{
+   align-items: flex-start;
+   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  background-color: #f0b33a;
+
+
+}
+div{
+     background-color: rgba(223, 202, 19, 0.8);
+ width: 600px;
+height: 500px;
+  font-size: 20px;
+  margin: 8px;
+  padding: 8px;
+
+  
+}
+.bild1{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+      margin: 8px;
+  padding: 8px;
+}
+.aside1{
+    font-size: 25px;
+      width: 400px;
+  padding-left: 10px;
+  margin-left: 10px;
+  float: right;
+  font-style: italic;
+  background-color:gray;
+}
+
+    
+
+/* footer{
+    background-color: rgb(228, 128, 6);
+    height: 200px;
+
+} */
+.link{
+   
+    background-color: #f8c316;
+}
+
+.ende{
+    background-color: #e6a3a9ee;
+    padding: 10px;
+    margin: 10px;
+}
