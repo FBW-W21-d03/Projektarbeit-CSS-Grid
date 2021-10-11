@@ -17,8 +17,13 @@ body{
 #kommentar{
     border: 5px solid grey;
     border-radius: 10px;
+    background-color: black;
+    color: white;
 }
 img{
     height: 200px;
     width: 100%;
+}
+form{
+    background-color: black;
 }
